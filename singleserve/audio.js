@@ -1,24 +1,21 @@
 function playclip() {
-if (navigator.appName == "Microsoft Internet Explorer"
-&& (navigator.appVersion.indexOf("MSIE 7")!=-1) || (
-navigator.appVersion.indexOf("MSIE 8")!=-1)) {
-	if (document.all)
-	{
-		document.all.sound.src = "scream.mp3";
+	  $('#apDiv3').hover(
+    function playclip() { $("scream")[0].play(); },
+    // function() { $("scream")[0].pause(); }
+    )
+});
 
-	}
-}
-else {
 
-{
-	var audio = document.
-	getElementsByTagName ("audio")[0];
-	audio.play();
-}
-}
+<audio id="scream" controls preload="auto">
+    <source src="scream.mp3" type="audio/mpeg"></source>
+    <div id="apDiv3">
+        <img src="https://filmmakermagazine.com/wp-content/uploads/2013/10/Schamus-10.jpg" width="175" height="5">
+    </div>
+</audio>
 
 
 
 
 
-}
+
+
