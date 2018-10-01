@@ -1,0 +1,13 @@
+body{
+	font-family: 'Anton', sans-serif;
+	font-size: 100px;
+	text-align: justify;
+	color: rgb(249, 207, 72);
+	background-color: black;
+	margin: 100px;
+
+}
+
+a:hover { 
+    font-family:'Source Sans Pro', sans-serif;
+}
