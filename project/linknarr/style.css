@@ -1,13 +1,73 @@
 body{
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
-	text-align: justify;
+	text-align: justify-all;
+
 	color: rgb(249, 207, 72);
 	background-color: black;
+	/*background-image: url(https://i.pinimg.com/564x/c5/ff/49/c5ff49ebc0764ff8ba123da29619b1ec.jpg);*/
 	margin: 100px;
-
+}
+p{
+	text-align: center;
+	display:inline;
 }
 
-a:hover { 
+
+.background {
+  background: gray url(https://i.pinimg.com/564x/c5/ff/49/c5ff49ebc0764ff8ba123da29619b1ec.jpg) repeat 0 0;
+  width: 100%;
+  margin: -100px;
+  text-align: justify;
+  height: 275%;
+  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  position: absolute;
+  -webkit-animation: slide 30s linear infinite;
+}
+
+.background h1 {
+  font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+a:hover{
+	display: url("https://t5.rbxcdn.com/634a64df1cb22a4d5c0ec6239e44e959");
+	color:green;
+}
+
+
+
+.dot:hover { 
     font-family:'Source Sans Pro', sans-serif;
+
+}
+img{
+	height: 125px;
+	opacity: 0
+	
+}
+img:hover{
+	opacity: 1;
+	transition: .01s;
+	color: blue;
+}
+
+
+.star{
+	display: inline;
+	
+	transition: .05s;
+	height: 50px;
+
+}
+.star:hover {
+	
+	color:green;
 }
