@@ -1,11 +1,17 @@
 h1{
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
-	
-
+	line-height: 130px;
 	color: rgb(249, 207, 72);
-	
 	margin: 100px;
+}
+h2{
+	font-family: 'Anton', sans-serif;
+	font-size: 150px;
+	line-height: 130px;
+	color: rgb(249, 207, 72);
+	margin: 100px;
+	text-decoration: underline;
 }
 }
 body{
@@ -17,8 +23,12 @@ body{
 	margin: 100px;
 }
 p{
+	font-family: 'Anton', sans-serif;
+	font-size: 100px;
+	line-height: 130px;
+	color: rgb(249, 207, 72);
+	margin: 100px;
 	text-align: center;
-	display:inline;
 }
 
 
@@ -53,6 +63,7 @@ a:hover{
 
 .dot:hover { 
     font-family:'Source Sans Pro', sans-serif;
+    display: inline;
 
 }
 img{
@@ -66,10 +77,8 @@ img:hover{
 	color: blue;
 }
 
-
 .star{
 	display: inline;
-	
 	transition: .05s;
 	height: 50px;
 
