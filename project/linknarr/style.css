@@ -1,11 +1,19 @@
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 100px;
+	
+
+	color: rgb(249, 207, 72);
+	
+	margin: 100px;
+}
+}
 body{
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
-	text-align: justify-all;
-
+	
 	color: rgb(249, 207, 72);
 	background-color: black;
-	/*background-image: url(https://i.pinimg.com/564x/c5/ff/49/c5ff49ebc0764ff8ba123da29619b1ec.jpg);*/
 	margin: 100px;
 }
 p{
@@ -18,7 +26,6 @@ p{
   background: gray url(https://i.pinimg.com/564x/c5/ff/49/c5ff49ebc0764ff8ba123da29619b1ec.jpg) repeat 0 0;
   width: 100%;
   margin: -100px;
-  text-align: justify;
   height: 275%;
   padding-top: 120px;
   padding-left: 100px;
