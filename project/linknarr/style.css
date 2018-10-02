@@ -15,6 +15,10 @@ h2{
 	text-decoration: underline;
 
 }
+h3{
+	font-size: 50px;
+	margin-left: 200px;
+}
 body{
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
@@ -68,6 +72,7 @@ a:hover{
 	font-size: 100px;
 }
 
+
 .dotindex:hover { 
     font-family:'Source Sans Pro', sans-serif;
     display: inline;
@@ -75,12 +80,14 @@ a:hover{
 
 }
 
-
 .dot:hover { 
     font-family:'Source Sans Pro', sans-serif;
     display: inline;
     font-size: 45px;
 
+}
+.order:hover{
+	text-decoration: underline;
 }
 img{
 	height: 125px;
