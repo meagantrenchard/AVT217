@@ -1,9 +1,10 @@
 h1{
 	font-family: 'Anton', sans-serif;
-	font-size: 30px;
-	line-height: 25px;
+	font-size: 50px;
+	line-height: 55px;
 	color: rgb(249, 207, 72);
 	margin-left: 200px;
+	margin-right: 200px;
 }
 h2{
 	font-family: 'Anton', sans-serif;
@@ -78,7 +79,7 @@ a:hover{
 .dot:hover { 
     font-family:'Source Sans Pro', sans-serif;
     display: inline;
-    font-size: 50px;
+    font-size: 45px;
 
 }
 img{
