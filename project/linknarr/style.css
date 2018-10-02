@@ -18,15 +18,13 @@ h2{
 h3{
 	font-size: 50px;
 	margin-left: 200px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 body{
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
 	color: rgb(249, 207, 72);
 	background-color: black;
-	/*margin: 100px;*/
-	
-	
 }
 p{
 	margin-top: 400px;
@@ -37,11 +35,7 @@ p{
 	display: inline;
 	margin-right: 50px;
 	margin-left: 50px;
-
-
 }
-
-
 .background {
   background: gray url(https://i.pinimg.com/564x/c5/ff/49/c5ff49ebc0764ff8ba123da29619b1ec.jpg) repeat 0 0;
   width: 107%;
@@ -63,16 +57,15 @@ p{
     from { background-position: 0 0; }
     to { background-position: -400px 0; }
 }
-
+a{
+	color: rgb(249, 194, 72);
+}
 a:hover{
-	display: url("https://t5.rbxcdn.com/634a64df1cb22a4d5c0ec6239e44e959");
-	color:green;
+	color: rgb(249, 166, 72);
 }
 .dotindex{
 	font-size: 100px;
 }
-
-
 .dotindex:hover { 
     font-family:'Source Sans Pro', sans-serif;
     display: inline;
@@ -89,24 +82,15 @@ a:hover{
 .order:hover{
 	text-decoration: underline;
 }
-img{
-	height: 125px;
-	opacity: 0
-	
-}
-img:hover{
-	opacity: 1;
-	transition: .01s;
-	color: blue;
-}
 
 .star{
 	display: inline;
 	transition: .05s;
 	height: 50px;
+	color:rgb(249, 166, 72); 
 
 }
 .star:hover {
 	
-	color:green;
+	color:rgb(249, 194, 72);
 }
