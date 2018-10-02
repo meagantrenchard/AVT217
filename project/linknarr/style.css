@@ -12,23 +12,27 @@ h2{
 	color: rgb(249, 207, 72);
 	margin-left: 100px;
 	text-decoration: underline;
-}
+
 }
 body{
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
 	color: rgb(249, 207, 72);
 	background-color: black;
-	margin: 100px;
+	/*margin: 100px;*/
+	
+	
 }
 p{
+	margin-top: 400px;
 	font-family: 'Anton', sans-serif;
 	font-size: 100px;
 	line-height: 130px;
 	color: rgb(249, 207, 72);
 	display: inline;
-	margin: 100px;
-	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
+
 
 }
 
