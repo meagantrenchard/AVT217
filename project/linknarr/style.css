@@ -45,7 +45,7 @@ p{
   padding-left: 100px;
   padding-right: 100px;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   -webkit-animation: slide 30s linear infinite;
 }
 

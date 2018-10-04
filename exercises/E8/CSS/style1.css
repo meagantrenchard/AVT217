@@ -1,0 +1,42 @@
+*{
+	background-color: rgb(26, 26, 26);
+	color:white;
+	margin-left: 20px;
+
+}
+h1{
+	font-family: 'Changa One', cursive;
+	font-size: 200px;
+	margin-top: 0px;
+	
+	margin-bottom: -10px;
+}
+h2{
+	font-family: 'Changa One', cursive;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+h3{
+	font-family: 'Changa One', cursive;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+p{
+	text-indent: 2%;
+	font-family: 'Jaldi', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	margin-left: 50px;
+	width: 900px;
+}
+.line{
+	color: white;
+	height: 0px; 
+	margin: 10px;
+	margin-top: 30px;
+	width: 950px;
+	border: solid 2px;
+
+}
