@@ -1,0 +1,26 @@
+*{
+	background-color: #929199;
+	margin-left: 30px;
+}
+h1{
+	font-family: 'Work Sans', sans-serif;
+	color: #130260;
+	font-size: 70px;
+	margin-left: 30px;
+	margin-top:20px;
+}
+p{
+	font-family: 'Yantramanav', sans-serif;
+	width: 600px;
+	background-color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+span{
+	font-size: 30px;
+	background-color: white;
+}
+q{
+	background-color: white;
+}

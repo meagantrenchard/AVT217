@@ -16,10 +16,10 @@ h2{
 	background-color: #585858;
 	color:white;
 	padding:30px;
+	text-align: right;
 	margin-left: -20px;
 	margin-right: -20px;
 	margin-top: -600px;
-	text-indent: 600px;
 	font-family: 'Passion One', cursive;
 	letter-spacing: 2px;
 	font-size: 30px;
@@ -27,12 +27,14 @@ h2{
 }
 h3{
 	background-color: #A0A0A0;
-	padding-top: 500px;
-	margin-right: 1000px;
-	text-align: center;
-	margin-top: -500px;
-	position: static;
-	font-size-adjust: none;
+	color:white;
+	padding:10px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: 25px;
+	font-family: 'Passion One', cursive;
+	letter-spacing: 2px;
+	font-size: 30px;
 }
 h3, p{
 	margin-left: 200px;
