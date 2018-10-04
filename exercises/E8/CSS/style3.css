@@ -1,0 +1,44 @@
+h1{
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+	color:black;
+	margin-left:20px;
+	margin-top: 500px;
+	padding:20px;
+	padding-left: 70px;
+
+	font-size: 90px;
+	background-color: gray;
+	font-family: 'Passion One', cursive;
+
+}
+h2{
+	background-color: #585858;
+	color:white;
+	padding:30px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -600px;
+	text-indent: 200px;
+	font-family: 'Passion One', cursive;
+	letter-spacing: 2px;
+	font-size: 30px;
+
+}
+h3{
+	background-color: #A0A0A0;
+	padding-top: 500px;
+	margin-right: 800px;
+	text-align: center;
+	margin-top: -500px;
+	
+}
+h3, p{
+	margin-left: 200px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+p{
+	width: 500px;
+	font-size: 20px;
+	text-indent: 2%;
+}
