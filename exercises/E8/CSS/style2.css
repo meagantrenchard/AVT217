@@ -1,0 +1,46 @@
+*{
+	background-color: white;
+}
+h1{
+	font-family: 'Nosifer', cursive;
+	text-align: center;
+	font-size:80px;
+	text-shadow: 5px 5px #5E0808;
+	color:#9B0606;
+	margin: -17px;
+	padding: -17px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+h2{
+	font-family: 'Jaldi', sans-serif;
+	background-color: black;
+	color:#9B0606;
+	margin: -20px;
+	padding: -20px;
+	padding-left: 52px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+h3{
+	font-family: 'Jaldi', sans-serif;
+	margin-left: 0%;
+	margin-top: 30px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 30px;
+}
+p{
+	font-family: 'Jaldi', sans-serif;
+	text-indent: 3%;
+	font-size: 20px;
+	width: 50%;
+	margin-left: 25%;
+
+	
+}
+.container{
+	
+}
