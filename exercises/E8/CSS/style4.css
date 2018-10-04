@@ -1,21 +1,36 @@
 *{
-	background-color: #929199;
-	margin-left: 30px;
+	background-color: #505e75;
+	
 }
 h1{
 	font-family: 'Work Sans', sans-serif;
-	color: #130260;
-	font-size: 70px;
-	margin-left: 30px;
+	color: white;
+	font-size: 200px;
+	letter-spacing: 100%;
+	margin-left: -20px;
 	margin-top:20px;
+	margin-bottom: 2px;
+	padding:10px;
+	text-decoration: underline;
+	
+}
+h2{
+	font-family: 'Work Sans', sans-serif;
+	color:white;
+	margin-top:-30px;
+	word-spacing: 5px;
+
 }
 p{
 	font-family: 'Yantramanav', sans-serif;
 	width: 600px;
 	background-color: white;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: -10px;
+	margin-right: 100%;
+	padding-left: 530px;
 	margin-bottom: 20px;
+	font-size: 20px;
+	padding-right: 20px;
 }
 span{
 	font-size: 30px;
