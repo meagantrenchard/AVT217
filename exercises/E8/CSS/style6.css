@@ -1,0 +1,14 @@
+*{
+	background-color: #f44295
+}
+.box{
+	background-color: white;
+	height: 80px;
+	width: 120%;
+	margin:-10px;
+
+}
+h1{
+	margin-top: -40px;
+	font-family: "dalliance-roman",sans-serif;
+}
