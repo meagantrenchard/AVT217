@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/nvq1hlr.css");
+
+*{
+	background-color: ##a8a8a8;
+	}
+	h1 {
+	font-family: "maple-web";
+	font-size: 180px;
+	margin-top: 100px;
+	margin-left: 20px;
+	margin-bottom: -70px;
+	letter-spacing: 10px;	
+	text-decoration: overline;
+	color: #19374c;
+  }
+  .line{
+  	background-color: #19374c;
+  	height: 700px;
+  	width: 10px;
+  	margin-left: 730px;
+  	margin-top: -600px;
+  }
+  h2{
+  	font-family: "maple-web";
+	font-size: 300px;
+	margin-top: 0px;
+	margin-left: 10px;
+	text-decoration: underline;
+	margin-bottom: -70px;
+	color: #19374c;
+	/*letter-spacing: 20px;*/
+  }
+  .container{
+  	margin-top: -700px;
+	margin-left: 750px;
+  }
+  h3{
+  	margin-left: 60px;
+  	font-size: 60px;
+  	line-height: 0px;
+  	word-spacing: 40px;
+  	font-family: "maple-web";
+  	margin-top: 60px;
+  	color: #19374c;
+  }
+  h4{
+  	color: #19374c;
+  	margin-left: 60px;
+  	font-size: 30px;
+  	margin-top: -30px;
+  	word-spacing: 10px;
+  	font-family: "maple-web";
+  }
+p{
+	font-family: "mr-eaves-xl-sans";
+	
+	font-size: 30px;
+	text-indent: 5%;
+  }
