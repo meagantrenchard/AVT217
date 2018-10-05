@@ -10,5 +10,6 @@
 }
 h1{
 	margin-top: -40px;
+	@import url("https://use.typekit.net/zkq6iql.css");
 	font-family: "dalliance-roman",sans-serif;
 }
