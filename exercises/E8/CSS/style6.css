@@ -10,38 +10,47 @@
 }
 .line{
 	background-color: white;
-	height: 800px;
+	height: 930px;
 	width: 10px;
 	margin-left: 125px;
-	margin-top: -800px;
+	margin-top: -930px;
 }
 .line2{
 	background-color: white;
-	height: 800px;
+	height: 930px;
 	width: 5px;
 	margin-left: 115px;
 }
 h1{
 	margin-top: -40px;
-	margin-left: 20px;
+	margin-left:150px;
+	margin-right: 150px;
+	text-align: center;
 	/*@import url("https://use.typekit.net/zkq6iql.css");*/
 	font-family: "dalliance-roman",sans-serif;
 	color: white;
 	text-indent: 10px;
 	font-size: 120px;
+	margin-bottom: 10px;
 }
 h2{
-
-}
-h3{
 	font-size: 45px;
 	margin: 5px;
 	margin-left: 150px;
-	font-family: "omnes-semicond",sans-serif;
+	margin-bottom: 2px;
+	font-family: "omnes-thin",sans-serif;
+	margin-top: -940px;
+}
+h3{
+	font-size: 45px;
+	margin: 2px;
+	margin-left: 150px;
+	font-family: "omnes-thin",sans-serif;
+
 }
 p{
 	margin-left: 150px;
-	margin-top: -800px;
+	margin-top: 20px;
 	font-size: 35px;
 	font-family: "omnes-thin",sans-serif;
 	font-weight: bold;
