@@ -32,6 +32,9 @@ p{
 	margin-right: 50px;
 	margin-left: 50px;
 }
+.container{
+	height: 100px;
+}
 .background {
   background: gray url(https://i.pinimg.com/564x/c5/ff/49/c5ff49ebc0764ff8ba123da29619b1ec.jpg) repeat 0 0;
   width: 107%;
