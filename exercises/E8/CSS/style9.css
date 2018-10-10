@@ -1,0 +1,35 @@
+*{
+	background-color: #2A3132;
+}
+h1{
+	color:#90AFC5;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 80px;
+	margin: -10px;
+	margin-top: -700px;
+	margin-left: 80px;
+	padding: 20px;
+	background-color: #763736;
+
+}
+.line{
+	background-color: #763736;
+	height: 900px;
+	margin-top: -300px;
+	width: 10px;
+	margin-left: 20px;
+}
+.line2{
+	background-color: #763736;
+	height: 900px;
+	margin-top: -700px;
+	width: 10px;
+	margin-left: 50px;
+}
+p{
+	color:#90AFC5;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	margin-left: 80px;
+	margin: 80px;
+}
