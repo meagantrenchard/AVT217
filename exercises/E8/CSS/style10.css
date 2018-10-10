@@ -1,0 +1,30 @@
+*{
+	background-color: #021c1e;
+}
+h1{
+	font-family: 'Satisfy', cursive;
+	color:#3c7873;
+	font-size: 70px;
+	text-shadow: 2px 2px #021c1e;
+	margin: 5px;
+	text-align: center;
+}
+.line{
+	width: 1320px;
+	height: 10px;
+	background-color: #6fb98f;
+}
+.contatiner{
+	background-color: #6fb98f;
+}
+p{
+	font-size: 30px;
+	padding: 40px;
+	background-color: #004445;
+	margin-top: 10px;
+	margin: 30px;
+	font-family: 'Cormorant Garamond', serif;
+}
+q{
+	background-color: #004445;	
+}
