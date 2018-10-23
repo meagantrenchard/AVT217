@@ -1,0 +1,178 @@
+.red{
+	padding: 2px;
+	}
+.pic{
+	text-align: center;
+	height: 200px;
+	margin: 50px;
+	padding: 25px;
+	line-height: 2.0;
+	}
+div.a {
+	text-indent: 50px;
+	}
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+	font-family: 'Yeseva One', cursive;
+	}
+h5{
+	text-align: center;
+	}
+h4{
+	padding: 100px;
+	text-align: center;
+	}
+p{
+	margin: 10px;
+	}
+#test {
+	margin: 100px;
+	padding: 25px;
+	background-color: whitesmoke;
+	line-height: 2.0;
+	}
+#test2 {
+	margin-bottom: 750px;
+	}
+	img{
+			height: 210px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+.box{
+	background-color: #343232;
+	color: white;
+	}
+* {
+	box-sizing: border-box;
+	}
+.column {
+    float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; 
+	}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+body{
+	background-image: url("https://gdc.design/sites/default/files/styles/gdc-square-large/public/images/feature-designers/906/906-carldair-banner0.png?itok=dB24IeWK");
+    min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 15px;
+	font-family: 'Merriweather', serif;
+	}
+
+
+
+@media only screen and (max-width: 600px) {
+    .red{
+		padding: .5px;
+		
+	}
+	
+	.pic{
+		text-align: center;
+		height: 200px;
+		margin: 50px;
+		padding: 25px;
+		line-height: 2.0;
+		}
+	div.a {
+		text-indent: 50px;
+
+		}
+	h1{
+		color: white;
+		text-align: left;
+		font-size: 30px;
+		/*margin: 10px; */
+		padding: 20px;
+		line-height: 30px;
+		font-family: 'Special Elite', cursive;		}
+	h5{
+		text-align: center;
+		margin-left: -40px;
+		margin-right: -40px;
+		padding: 10px;
+		}
+	h4{
+		padding: 100px;
+		text-align: center;
+		}
+	p{
+		margin: 10px;
+
+		}
+		img{
+			height: 210px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 20px;
+		}
+	#test{
+		margin: 10px;
+		padding: 40px;
+		background-color: #141D28;
+		line-height: 1.5;
+		padding-top: 10px;
+		}
+	
+	#test2{
+		margin-bottom: 50px;
+		}
+	.box{
+		background-color: #141D28;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 17px;
+		margin: 10px;
+		line-height: 20px;
+		font-weight: bold;
+		border: solid white;
+		}
+	* {
+		box-sizing: border-box;
+		}
+	/*.heading{
+		background-color: #062443 ;
+		height: 200px;
+		margin:-50px;
+		width: 150%;
+		margin-left: -80px;
+	}*/
+	.column {
+	    float: left;
+		width: 50%;
+		padding: 10px;
+		height: 500px; 
+		}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+	body{
+		background-image: url(https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80);
+	    min-height: 400px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		line-height: 20px;
+		font-size: 15px;
+		color: white;
+		font-family: 'Open Sans Condensed', sans-serif;
+
+		}
+
+}	
