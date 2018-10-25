@@ -1,0 +1,8 @@
+ @font-face { font-family: Bad Signal; src: url('Bad Signal.otf'); } 
+*{
+	background-color: #181B1C;
+}
+h1, h2{
+	color: #4EAB3B;
+	font-family: Bad Signal
+}
