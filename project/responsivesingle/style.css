@@ -1,8 +1,37 @@
  @font-face { font-family: Bad Signal; src: url('Bad Signal.otf'); } 
+ @font-face { font-family: BebasNeue; src: url('BebasNeue-Regular.otf'); } 
 *{
 	background-color: #181B1C;
 }
+.head{
+	background-color: #464A50;
+	margin-left: -10px;
+	margin-right: 120px;
+	margin-top: 50px;
+	padding: 20px;
+	padding-left: 80px;
+	padding-right: 175px;
+}
 h1, h2{
 	color: #4EAB3B;
-	font-family: Bad Signal
+	background-color: #464A50; 
+}
+h1{
+	font-size: 70px;
+	font-family: Bad Signal;
+}
+h2{
+	font-size: 50px;
+	font-family: BebasNeue;
+}
+#whitewave{
+	width: 100%;
+}
+p{
+	color: white;
+	font-size: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
 }
