@@ -30,13 +30,22 @@ h2{
 p{
 	color: white;
 	font-size: 20px;
-	margin-left: 300px;
-	margin-right: 300px;
-	line-height: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	line-height: 35px;
 	font-family: 'Roboto', sans-serif;
 }
 .line{
 	background-color: #4EAB3B;
 	font-size: 70px;
 	font-family: Bad Signal;
+	margin-left: 400px;
+	margin-right:-10px;
+	padding-left: 50px;
+
+}
+h3{
+	font-size: 70px;
+	font-family: Bad Signal;
+	color: white;
 }
