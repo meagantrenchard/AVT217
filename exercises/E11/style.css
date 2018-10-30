@@ -1,0 +1,90 @@
+body{
+	background-color: #181B1C;
+
+
+}
+
+#base{
+	background-color: #663399;
+	height: 30px;
+	width: 300px;
+	margin-left: 400px;
+/*	margin-top: 400px;
+*/	border-radius: 75%;
+	margin-bottom: 0px;
+	box-shadow: 5px 5px black;
+}
+
+
+#body{
+	height: 400px;
+	width: 100px;
+	margin-left: 450px;
+	margin-bottom: -10px;
+
+	/*width: 0;*/
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #663399;
+}
+
+#tip{
+	margin-left: 500px;
+	padding-top: -130px;
+	margin-bottom: 0px;
+  	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 150px 125px;
+	border-color: transparent transparent #663399 transparent;
+  	
+  	
+
+}
+#shade{
+	position: relative;
+	margin-left: 575px;
+	margin-bottom: -150px;
+  	width: 0;
+	height: 0;
+	border-style: solid;
+
+	border-width: 0 0 150px 50px;
+	border-color: transparent transparent #4B0082 transparent;
+  	
+}
+#bshade{
+	height: 400px;
+	width: 50px;
+	margin-left: 575px;
+	margin-bottom: -10px;
+	margin-top: -100px;
+    height: 0;
+    border-right: 25px solid transparent;
+    border-bottom: 100px solid #4B0082;
+}
+#buckle{
+	background-color: green;
+	margin-left: 530px;
+	margin-top: -40px;
+	height: 30px;
+	width: 30px;
+	border-style: solid;
+	border-width:  10px;
+	border-color: black;
+	box-shadow: 2px 5px #4B0082;
+}
+#band{
+	background-color: green;
+	margin-left: 455px;
+	height: 25px;
+	width: 190px;
+	margin-top: -45px;
+	margin-bottom: -2px;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 40%;
+	box-shadow: 2px 5px #4B0082;
+}
