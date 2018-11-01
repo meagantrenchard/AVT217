@@ -37,7 +37,7 @@ h3{
 	
 }
 #whitewave{
-	width: 100%;
+	height: cover;
 }
 #deviceimg{
 	margin-left: 133px;
@@ -122,7 +122,6 @@ iframe{
 	background-attachment: fixed;
 	height: 500px;
 	width: 100%;
-	
 	background-size: cover;
 
 }
@@ -137,6 +136,12 @@ iframe{
 	display: inline;
 	position: static;
 	height: 600px;
+}
+.footerwave{
+	margin-left: 600px;
+	margin-top: -20px;
+	transform: rotate(180deg);
+
 }
 
 
