@@ -193,7 +193,194 @@ iframe{
 
 /*MOBILE SCREEN*/
 @media screen and (max-width: 320px){
-			
+@media screen and (max-width: 768px){
+	body{
+	background-color: #181B1C;
+	margin: 0;
+}
+.head{
+	background-color: #464A50;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	padding: 10px;
+	padding-left: 80px;
+	padding-right: 175px;
+
+}
+h1, h2{
+	color: #4EAB3B;
+	background-color: #464A50; 
+
+}
+h1{
+	font-size: 40px;
+	font-family: Bad Signal;
+	letter-spacing: 2px;
+
+}
+h2{
+	font-size: 30px;
+	font-family: BebasNeue;
+}
+h3{
+	font-size: 25px;
+	font-family: Bad Signal;
+	color: white;
+	letter-spacing: 2px;
+	
+}
+h4{
+	font-size: 30px;
+	font-family: BebasNeue;
+	color: white;
+}
+.whitewave{
+	width: 200px;
+}
+#deviceimg{
+	margin-left: 420px;
+	display: inline;
+	width: 200px;
+	padding: none;
+
+}
+#amazon{
+	/*margin-right: 10px; */
+	height: auto;
+/*	width: 100px;
+*/}
+#ihome{
+	/*height: 355px;*/
+/*	width: 100px;
+*/}
+#greenwave{
+	height: 600px;
+	width: auto;
+	opacity: .50;
+	transform: scaleX(1);
+	transform: rotate(90deg);
+	
+}
+#greenswirl{
+	transform: rotate(100deg);
+	opacity: .50;
+}
+/*img{
+	height: 300px;
+
+}*/
+.circit{
+	align-content: left;
+	transform: rotate(180deg);
+	margin-top: 20px;
+	margin-left: -20px;
+	opacity: .25;
+	height: 100px;
+}
+
+p{
+	color: white;
+	font-size: 18px;
+	/*margin-left: 350px;
+	margin-right: 350px;*/
+	line-height: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	color:white;
+
+}
+a:hover{
+	color:#4EAB3B;
+	font-style: italic;
+
+}
+iframe{
+	 position:absolute;
+	 width:100%;
+	 height:100%;
+	 left:0;
+}
+.quote{
+	background-color: gray;
+	text-align: center;
+	padding: 30px;
+	margin-right: -10px;
+	margin-left: -10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#column{
+	margin-left: 400px;
+}
+.line{
+	background-color: #4EAB3B;
+	text-align: center;
+	font-family: Bad Signal;
+	margin-left: -10px;
+	width: 100%;
+	margin-right:-10px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+.line2{
+	background-color: #4EAB3B;
+	text-align: center;
+	font-family: Bad Signal;
+	margin-left: -10px;
+	width: 100%;
+	margin-right:-10px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+
+}
+.connect2{
+	background: url(pictures/connect.png);
+	align-content: center; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 300px;
+	width: 100%;
+	background-size: 800px 800px;
+
+}
+
+.footer{
+	background-color: #464A50;
+	height: 50px;
+	width: 100%;
+	
+}
+iframe{
+	display: inline;
+	position: static;
+	height: 600px;
+}
+.footerwave{
+	margin-left: 600px;
+	margin-top: -350px;
+	margin-bottom: 20px;
+	transform: rotate(180deg);
+	height: 500px;
+	opacity: .75;
+
+
+}
+.container{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+/*REGULAR DESKTOP SCREEN*/
+@media screen and (max-width: 1024px){
+	
+}			
 
 }
 /*TABLET SCREEN*/
@@ -246,17 +433,18 @@ h4{
 	margin-left: 420px;
 	display: inline;
 	width: 200px;
+	padding: none;
 
 }
 #amazon{
-	margin-right: 10px; 
+	/*margin-right: 10px; */
 	height: auto;
-	width: 100px;
-}
+/*	width: 100px;
+*/}
 #ihome{
 	/*height: 355px;*/
-	width: 100px;
-}
+/*	width: 100px;
+*/}
 #greenwave{
 	height: 600px;
 	width: auto;
