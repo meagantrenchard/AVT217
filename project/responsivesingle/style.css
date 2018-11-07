@@ -200,7 +200,7 @@ iframe{
 
 
 /*MOBILE SCREEN*/
-@media screen and (min-width: 414/*320*/px){
+@media screen and (min-width: 320px){
 	body{
 	background-color: #181B1C;
 	margin: 0;
@@ -216,12 +216,12 @@ iframe{
 
 }
 h1, h2{
-	color: #4EAB3B;
+	color: blue;
 	background-color: #464A50; 
 
 }
 h1{
-	font-size: 30px;
+	font-size: 20px;
 	font-family: Bad Signal;
 	letter-spacing: 2px;
 
