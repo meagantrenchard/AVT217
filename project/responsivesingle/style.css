@@ -51,12 +51,12 @@ h4{
  
 }
 #amazon{
-	margin-left: 300px;
-	height: 200px;
+	margin-left: 400px;
+	margin-right: 0px;
+	height: 500px;
+	
 }
 #amazon img{ 
-	height: auto;
-	max-width: 100%;
 	max-height: 100%;
 
 }
@@ -255,12 +255,10 @@ h4{
  
 }
 #amazon{
-	margin-left: 300px;
-	height: 200px;
+	margin-left: 200px;
+	height: 250px;
 }
 #amazon img{ 
-	height: auto;
-	max-width: 100%;
 	max-height: 100%;
 
 }
@@ -456,6 +454,12 @@ h4{
 	max-width: 100%;
  
 }
+.pictures{
+	height: 300px;
+}
+.pictures img{
+	max-height: auto;
+}
 #amazon{
 	margin-left: 300px;
 	height: 200px;
@@ -466,16 +470,7 @@ h4{
 	max-height: 100%;
 
 }
-#ihome{
-	margin-left: -10px;
-	height: 200px;
-}
-#ihome img{
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	
-}
+
 #greenwave{
 	opacity: .50;
 	margin-top: -900px;
@@ -671,26 +666,12 @@ h4{
 	max-width: 100%;
  
 }
-#amazon{
-	margin-left: 300px;
-	height: 200px;
-}
-#amazon img{ 
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
+img{
+	width: 250px;
+	
 
 }
-#ihome{
-	margin-left: -10px;
-	height: 200px;
-}
-#ihome img{
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	
-}
+
 #greenwave{
 	opacity: .50;
 	margin-top: -900px;
@@ -727,8 +708,6 @@ h4{
 p{
 	color: white;
 	font-size: 15px;
-	/*margin-left: 350px;
-	margin-right: 350px;*/
 	line-height: 30px;
 	font-family: 'Roboto', sans-serif;
 }
@@ -778,7 +757,7 @@ iframe{
 	text-align: center;
 	font-family: Bad Signal;
 	margin-left: -10px;
-	width: 100%;
+	
 	margin-bottom: 30px;
 	margin-top: 30px;
 	margin-right:-10px;
@@ -792,7 +771,7 @@ iframe{
 	display: none;
 }
 .connectm {
-	
+
 }
 .connectm img{
 	height: 100px;
@@ -810,11 +789,11 @@ iframe{
 	height: 300px;
 }
 .footerwave{
-	margin-top: -50px;
+	margin-top: -140px;
 	margin-right: 5px;
 	transform: rotate(180deg);
 	opacity: .75;
-	height: 300px;
+	height: 200px;
 }
 .footerwave img{
 	max-height: 100%;
