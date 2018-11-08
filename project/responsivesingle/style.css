@@ -44,10 +44,10 @@ h4{
 
 .whitewave {
 	width: 1440px;
-	margin-top: -150px;
+	margin-top: -30px;
 }
 .whitewave img{
-	min-width: 100%;
+	max-width: 100%;
  
 }
 #amazon{
@@ -73,7 +73,8 @@ h4{
 #greenwave{
 	opacity: .50;
 	margin-top: -900px;
-	margin-left: 300px;
+	margin-left: 200px;
+	width: auto;
 }
 #greenwave img{
 	height: 800px;
@@ -247,11 +248,11 @@ h4{
 }
 
 .whitewave {
-	width: 1024px;
-	margin-top: -100px;
+	height: auto;
+	margin-top: -30px;
 }
 .whitewave img{
-	min-width: 100%;
+	max-width: 100%;
  
 }
 #amazon{
@@ -262,23 +263,21 @@ h4{
 	max-height: 100%;
 
 }
-#ihome{
-	margin-left: -10px;
-	height: 200px;
-}
-#ihome img{
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	
+img{
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
 #greenwave{
 	opacity: .50;
 	margin-top: -900px;
-	margin-left: 200px;
+	margin-left: 20px;
 }
 #greenwave img{
-	height: 800px;
+	height: 700px;
+	width: auto;
+	margin-bottom: 200px;
 }
 #greenswirl{
 	transform: rotate(100deg);
@@ -288,12 +287,14 @@ h4{
 	
 	transform: rotate(180deg);
 	margin-top: -700px;
-	margin-right: 500px;
+	margin-right: 400px;
 	opacity: .50;
 	
 }
 .circit img{
 	height: 700px;
+	width: auto;
+
 }
 p{
 	color: white;
@@ -385,8 +386,9 @@ iframe{
 	position: static;
 	height: 600px;
 }
+
 .footerwave{
-	margin-top: 200px;
+	margin-top: 50px;
 	transform: rotate(180deg);
 	opacity: .75;
 	height: 500px;
@@ -447,8 +449,8 @@ h4{
 	color: white;
 }
 .whitewave {
-	width: 750px;
-	margin-top: -90px;
+	width: auto;
+	margin-top: -70px;
 }
 .whitewave img{
 	max-width: 100%;
@@ -460,33 +462,29 @@ h4{
 .pictures img{
 	max-height: auto;
 }
-#amazon{
-	margin-left: 300px;
-	height: 200px;
-}
-#amazon img{ 
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
+img{
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 }
 
 #greenwave{
 	opacity: .50;
 	margin-top: -900px;
-	margin-left: 50px;
+	margin-left: 20px;
 }
 #greenwave img{
 	height: 700px;
-	margin-bottom: 180px;
+	width: auto;
+	margin-bottom: 200px;
 }
 #greenswirl{
 	transform: rotate(100deg);
 	opacity: .50;
 	height: 1000px;
 	margin-top: -1000px;
-	margin-bottom: 100px;
-	margin-right: 200px;
+	margin-right: 0px;
 }
 #greenswirl img{
 	max-height: 100%;
@@ -501,6 +499,8 @@ h4{
 }
 .circit img{
 	height: 700px;
+	width: auto;
+
 }
 
 p{
@@ -523,7 +523,7 @@ a:hover{
 iframe{
 	 position:absolute;
 	 width:100%;
-	 height:100%;
+	 height:auto;
 	 left:0;
 }
 .quote{
@@ -540,37 +540,39 @@ iframe{
 }
 .line{
 	background-color: #4EAB3B;
-	text-align: center;
-	font-family: Bad Signal;
-	margin-left: -10px;
-	width: 100%;
-	margin-right:-10px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	text-align: left;
 	
-}
-.line2{
-	background-color: #4EAB3B;
-	text-align: center;
 	font-family: Bad Signal;
-	margin-left: -10px;
-	width: 100%;
 	margin-bottom: 30px;
-	margin-top: 30px;
-	margin-right:-10px;
+	margin-top: 10px;
+	margin-right:0px;
+	padding-left: 40px;
 	padding-right: 20px;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	
-
+}
+.line h3{
+	max-width: 100%
+}
+.line2 {
+	background-color: #4EAB3B;
+	text-align: left;
+	width: 410px;
+	font-family: Bad Signal;
+	margin-left: -10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-right:-10px;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 .connect2{
 	background: url(pictures/connect.png) center center;
-	align-content: center ; 
-	height: 300px;
+	align-content: center;
+	height: 500px;
 	width: 100%;
 	
 }
@@ -578,7 +580,6 @@ iframe{
 
 }
 .connectm img{
-	 
 	/*height: 400px;*/
 	max-width: 100%;
 }
@@ -596,12 +597,12 @@ iframe{
 	height: 600px;
 }
 .footerwave{
-	margin-top: 200px;
+	margin-top: -300px;
 	margin-right: 100px;
 	transform: rotate(180deg);
 	opacity: .75;
-	height: 400px;
-}
+	
+	}
 .footerwave img{
 	max-height: 100%;
 
@@ -659,7 +660,7 @@ h4{
 	letter-spacing: 3px;
 }
 .whitewave {
-	width: 400px;
+	width: 470px;
 	margin-top: -30px;
 }
 .whitewave img{
@@ -668,7 +669,6 @@ h4{
 }
 img{
 	width: 250px;
-	
 
 }
 
@@ -678,7 +678,8 @@ img{
 	margin-left: -10px;
 }
 #greenwave img{
-	height:440px;
+	height:400px;
+	width: auto;
 	margin-bottom: 450px;
 }
 #greenswirl{
@@ -703,6 +704,7 @@ img{
 }
 .circit img{
 	height: 700px;
+	width: auto;
 }
 
 p{
@@ -740,32 +742,32 @@ iframe{
 }
 .line{
 	background-color: #4EAB3B;
-	text-align: center;
+	text-align: left;
+	width: 410px;
 	font-family: Bad Signal;
 	margin-left: -10px;
-	width: 100%;
-	margin-right:-10px;
 	margin-bottom: 30px;
-	margin-top: 30px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	
-}
-.line2{
-	background-color: #4EAB3B;
-	text-align: center;
-	font-family: Bad Signal;
-	margin-left: -10px;
-	
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-right:-10px;
+	padding-left: 40px;
 	padding-right: 20px;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	
-
+}
+.line2 {
+	background-color: #4EAB3B;
+	text-align: left;
+	width: 410px;
+	font-family: Bad Signal;
+	margin-left: -10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-right:-10px;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 .connect2{
 	display: none;
