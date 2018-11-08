@@ -44,11 +44,12 @@ h4{
 
 
 .whitewave {
-	height: auto;
+
 	margin-top: -30px;
 }
 .whitewave img{
 	max-width: 100%;
+	width: 1440px;
  
 }
 #amazon{
@@ -247,12 +248,12 @@ h4{
 }
 
 .whitewave {
-	height: auto;
-	margin-top: -30px;
+	
+	margin-top: -70px;
 }
 .whitewave img{
 	max-width: 100%;
- 
+ 	width: 1024px;
 }
 #amazon{
 	margin-left: 200px;
@@ -449,11 +450,13 @@ h4{
 	color: white;
 }
 .whitewave {
-	width: auto;
+	
 	margin-top: -70px;
 }
 .whitewave img{
 	max-width: 100%;
+	width: 768px;
+
  
 }
 .pictures{
@@ -666,12 +669,10 @@ h4{
 }
 .whitewave img{
 	max-width: 100%;
- 	height: auto;
+	width: 500px;
+ 	
 }
-img{
-	width: 250px;
 
-}
 
 #greenwave{
 	opacity: .50;
@@ -740,6 +741,12 @@ iframe{
 }
 #column{
 	margin-left: 400px;
+}
+img{
+	width: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
 .line{
 	background-color: #4EAB3B;
