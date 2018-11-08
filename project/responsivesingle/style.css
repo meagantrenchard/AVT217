@@ -42,8 +42,9 @@ h4{
 	color: white;
 }
 
+
 .whitewave {
-	width: 1440px;
+	height: auto;
 	margin-top: -30px;
 }
 .whitewave img{
@@ -60,24 +61,21 @@ h4{
 	max-height: 100%;
 
 }
-#ihome{
-	margin-left: -10px;
-	height: 200px;
-}
-#ihome img{
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	
+img{
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
 #greenwave{
 	opacity: .50;
 	margin-top: -900px;
-	margin-left: 200px;
-	width: auto;
+	margin-left: 250px;
 }
 #greenwave img{
-	height: 800px;
+	height: 700px;
+	width: auto;
+	margin-bottom: 100px;
 }
 #greenswirl{
 	transform: rotate(100deg);
@@ -184,10 +182,11 @@ iframe{
 	height: 600px;
 }
 .footerwave{
-	margin-top: 200px;
+	margin-top: -70px;
+	margin-left: 400px;
 	transform: rotate(180deg);
 	opacity: .75;
-	height: 500px;
+	width: 800px;
 }
 .footerwave img{
 	max-height: 100%;
@@ -277,7 +276,7 @@ img{
 #greenwave img{
 	height: 700px;
 	width: auto;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 #greenswirl{
 	transform: rotate(100deg);
@@ -388,10 +387,11 @@ iframe{
 }
 
 .footerwave{
-	margin-top: 50px;
+	margin-top: -70px;
+	margin-left: 200px;
 	transform: rotate(180deg);
 	opacity: .75;
-	height: 500px;
+	width: 800px;
 }
 .footerwave img{
 	max-height: 100%;
@@ -597,6 +597,7 @@ iframe{
 	height: 600px;
 }
 .footerwave{
+	display: none;
 	margin-top: -300px;
 	margin-right: 100px;
 	transform: rotate(180deg);
@@ -660,12 +661,12 @@ h4{
 	letter-spacing: 3px;
 }
 .whitewave {
-	width: 470px;
+	
 	margin-top: -30px;
 }
 .whitewave img{
 	max-width: 100%;
- 
+ 	height: auto;
 }
 img{
 	width: 250px;
