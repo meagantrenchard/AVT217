@@ -22,15 +22,28 @@ function demoFunction() {
      })
      $(".jqClick").click(function(){
          $("#harwich").fadeIn('slow');
+     });
+      $(".places").click(function(){
          $("#ocean").fadeIn('slow');
+    
+     });
+       $(".places2").click(function(){
          $("#vero").fadeIn('slow');
+    
+     });
+        $(".places3").click(function(){
          $("#oka").fadeIn('slow');
+    
+     });
+         $(".places4").click(function(){
+         
          $("#new").fadeIn('slow');
     
      });
-    $(".items").click(function(){
-        $(this).toggleClass("green")
+    $("#harwichimg.hover").mouseover(function(){
+        $(this).toggleClass("harwichimg.png")
     });
+
 }
  
 function vPosH1() {

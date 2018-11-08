@@ -12,7 +12,7 @@ h1{
 }
 h2{
 	color: white;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'Lalezar', cursive;
 	letter-spacing: 1px;
 }
@@ -21,24 +21,38 @@ h2{
 	margin-right: 30px;
 }
 
-.items.green{
-	background-color: green;
-}
+
 .header{
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 .smaller{
-	font-size: 50px
+	font-size: 60px
 
+}
+img{
+	height: 200px;
 }
 .jqClick{
 	cursor: pointer;
 }
-.jqClick header{
-	color: blue;
+.places{
+	cursor: pointer;
 }
+.places2{
+	cursor: pointer;
+}
+.places3{
+	cursor: pointer;
+}
+.places4{
+	cursor: pointer;
+}
+
 #harwich{
 	display: none;
+}
+#harwichimg.hover{
+	display: block;
 }
 
 #ocean{
