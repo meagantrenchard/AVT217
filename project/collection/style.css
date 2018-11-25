@@ -1,0 +1,210 @@
+@font-face { font-family: New French; src: url('newfrench.otf'); } 
+*{
+	background-color: rgb(46,47,64);
+}
+#header{
+	background-color: rgb(0,2,22);
+	width: 700px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+}
+h1{
+	background-color: rgb(0,2,22);
+	color: white;
+	font-family: din-condensed, sans-serif;
+	font-weight: bold;
+	font-size: 90px;
+	font-style: normal;
+}
+#nav{
+	background-color: rgb(0,2,22);
+	width: 700px;
+	height: 90px;
+	margin-left: -10px;
+	padding-left: 30px;
+	margin-right: auto;
+	
+}
+a, h2{
+	background-color: rgb(0,2,22);
+	color: white;
+	font-family: din-condensed, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: gray;
+}
+#title{
+	background-color: rgb(0,2,22);
+	margin-left: 600px;
+
+	margin-right: -10px;
+}
+h3{
+	background-color: rgb(0,2,22);
+	color: white;
+	text-align: right;
+	padding-right: 30px;
+	margin-left: 200px;
+	font-family: New French, sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	font-style: normal;
+}
+#background{
+	background-color: rgb(178, 184, 197);
+	width: 100%;
+	height: 3000px;
+	margin-top: 10px;
+	position: absolute;
+	margin-left: -10px;
+	padding-left: 30px;
+	margin-right: auto;
+}
+img{
+	align-content: center;
+	width: 300px;
+}
+			#gmu{
+				background-color: rgb(248, 248, 249);
+				position: absolute;
+				height: 400px;
+				width: 300px;
+				margin-left: 100px;
+				border-bottom-right-radius: 25px;
+			}
+			#tom{
+				background-color: rgb(248, 248, 249);
+				position: absolute;
+				height: 400px;
+				width: 300px;
+				margin-left: 100px;
+				margin-top: 500px;
+				border-bottom-right-radius: 25px;
+			}
+			#flower{
+				background-color: rgb(248, 248, 249);
+				position: absolute;
+				height: 400px;
+				width: 300px;
+				margin-left: 100px;
+				margin-top: 1000px;
+				border-bottom-right-radius: 25px;
+			}
+			#lab{
+				background-color: rgb(248, 248, 249);
+				position: absolute;
+				height: 400px;
+				width: 300px;
+				margin-left: 100px;
+				margin-top: 1500px;
+				border-bottom-right-radius: 25px;
+			}
+			#dunkin{
+				background-color: rgb(248, 248, 249);
+				position: absolute;
+				height: 400px;
+				width: 300px;
+				margin-left: 100px;
+				margin-top: 2000px;
+				border-bottom-right-radius: 25px;
+			}
+
+#code{
+	background-color: rgb(248, 248, 249);
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	margin-left: 500px;
+	border-bottom-right-radius: 25px;
+}
+#hack{
+	background-color: rgb(248, 248, 249);
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: 500px;
+	border-bottom-right-radius: 25px;
+}
+#laptop{
+	background-color: rgb(248, 248, 249);
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: 1000px;
+	border-bottom-right-radius: 25px;
+}
+#cape{
+	background-color: rgb(248, 248, 249);
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: 1500px;
+	border-bottom-right-radius: 25px;
+}
+#lash{
+	background-color: rgb(248, 248, 249);
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	margin-left: 500px;
+	margin-top: 2000px;
+	border-bottom-right-radius: 25px;
+}
+
+
+
+		#office{
+			background-color: rgb(248, 248, 249);
+			position: absolute;
+			height: 400px;
+			width: 300px;
+			margin-left: 900px;
+			border-bottom-right-radius: 25px;
+		}
+		#girls{
+			background-color: rgb(248, 248, 249);
+			position: absolute;
+			height: 400px;
+			width: 300px;
+			margin-left: 900px;
+			margin-top: 500px;
+			border-bottom-right-radius: 25px;
+			}
+		#soup{
+			background-color: rgb(248, 248, 249);
+			position: absolute;
+			height: 400px;
+			width: 300px;
+			margin-left: 900px;
+			margin-top: 1000px;
+			border-bottom-right-radius: 25px;
+		}
+		#vine{
+			background-color: rgb(248, 248, 249);
+			position: absolute;
+			height: 400px;
+			width: 300px;
+			margin-left: 900px;
+			margin-top: 1500px;
+			border-bottom-right-radius: 25px;
+		}
+		#gray{
+			background-color: rgb(248, 248, 249);
+			position: absolute;
+			height: 400px;
+			width: 300px;
+			margin-left: 900px;
+			margin-top: 2000px;
+			border-bottom-right-radius: 25px;
+		}
