@@ -58,6 +58,9 @@ h3{
 	font-size: 80px;
 	font-style: normal;
 }
+.cover{
+	width: 100%;
+}
 #background{
 	background-color: rgb(178, 184, 197);
 	width: 100%;
