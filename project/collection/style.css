@@ -2,7 +2,11 @@
 *{
 	background-color: rgb(46,47,64);
 }
-#header{
+/*#container{
+	width: 100vw;
+	margin: 0 auto;
+}*/
+.header{
 	background-color: rgb(0,2,22);
 	width: 700px;
 	text-align: center;
@@ -21,7 +25,7 @@ h1{
 	font-style: normal;
 
 }
-#nav{
+.nav{
 	background-color: rgb(0,2,22);
 	width: 700px;
 	height: 90px;
@@ -59,18 +63,70 @@ h3{
 	color: white;
 	text-align: right;
 	margin-top: 30px;
+	padding-right: 10px;
 	margin-left: 200px;
 	font-family: New French, sans-serif;
 	font-weight: bold;
-	font-size: 90px;
+	font-size: 100%;
 	font-style: normal;
 }
-.cover{
-	width: 100%;
+.test {
+    position: relative;
+    width: 300px;
 }
+.image {
+  opacity: 1;
+  width: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.test:hover .image {
+  opacity: 0.3;
+}
+.test:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: transparent;
+  color: white;
+  font-family: din-condensed, sans-serif;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #background{
 	background-color: rgb(178, 184, 197);
 	width: 100%;
+	padding: auto;
+	padding-top: 40px;
 	height: 3000px;
 	margin-top: 10px;
 	position: absolute;
@@ -78,9 +134,11 @@ h3{
 	padding-left: 30px;
 	margin-right: auto;
 }
+
 img{
 	align-content: center;
 	width: 300px;
+	border-style: none;
 }
 			#gmu{
 				background-color: rgb(248, 248, 249);
