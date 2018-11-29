@@ -32,7 +32,7 @@ h1{
 	width: 700px;
 	height: 90px;
 	margin-left: -10px;
-
+	box-shadow: 5px 5px 5px 5px #22232F;
 	padding-left: 40px;
 	margin-right: auto;	
 }
@@ -40,7 +40,6 @@ a, h2{
 	color: white;
 	font-family: din-condensed, sans-serif;
 	font-weight: bold;
-
 	font-size: 40px;
 	font-style: normal;
 	word-spacing: 30px;
@@ -64,6 +63,7 @@ a:hover{
 	height: 100px;
 	margin-bottom: 50px;
 	position: relative;
+	box-shadow: 5px 5px 5px 5px #22232F;
 }
 h3{
 	background-color: transparent;
