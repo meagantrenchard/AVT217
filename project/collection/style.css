@@ -2,6 +2,9 @@
 *{
 	background-color: rgb(46,47,64);
 }
+body {
+	margin: 0;
+}
 #container{
 	width: 100vw;
 	margin: 0 auto;
@@ -60,6 +63,8 @@ a:hover{
 	margin-left: 600px;
 	margin-right: -10px;
 	margin-top: 30px;
+	padding-left: 10px;
+	/*margin-left: 190px;*/
 	height: 100px;
 	margin-bottom: 50px;
 	position: relative;
@@ -69,12 +74,12 @@ h3{
 	background-color: transparent;
 	color: white;
 	text-align: right;
-	margin-top: 30px;
+	margin-top: 40px;
+	padding-left: 20px;
 	padding-right: 40px;
-	margin-left: 200px;
 	font-family: New French, sans-serif;
 	font-weight: bold;
-	font-size: 100px;
+	font-size: 80px;
 	font-style: normal;
 	position: absolute;
 	top: -100px;
@@ -139,7 +144,7 @@ h3{
 	margin-top: 10px;
 	position: absolute;
 	margin-left: -10px;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
 	margin-right: auto;
 }
 #background2{
@@ -151,7 +156,7 @@ h3{
 	margin-top: 0px;
 	position: absolute;
 	margin-left: -10px;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
 	margin-right: auto;
 }
 .selection{
@@ -248,27 +253,24 @@ h3{
 				color: gray;
 			}
 			#title{
-				background-color: rgb(0,2,22);
-				margin-left: 500px;
-				margin-right: -10px;
-				margin-top: 30px;
-				height: 100px;
-				margin-bottom: 50px;
-				position: relative;
-				box-shadow: 5px 5px 5px 0px #22232F;
+			background-color: rgb(0,2,22);
+			margin-left: 450px;
+			margin-right: -10px;
+			margin-top: 50px;
+			padding-left: 10px;
+			/*margin-left: 190px;*/
+			height: 100px;
+			margin-bottom: 50px;
+			position: relative;
+			box-shadow: 5px 5px 5px 5px #22232F;
 			}
 			h3{
 				background-color: transparent;
 				color: white;
-
 				text-align: right;
-
 				margin-top: 50px;
-				margin-left: 60px;
-
-
-				/*padding-right: 40px;*/
-				
+				padding-left: 20px;
+				padding-right: 40px;
 				font-family: New French, sans-serif;
 				font-weight: bold;
 				font-size: 70px;
@@ -382,16 +384,402 @@ h3{
 			}
 			.bioimg{
 				background-color: rgb(178, 184, 197);
-				height: 400px;
-				width: 400px;
+				height: 300px;
+				width: 300px;
 				margin: 30px;
 			}
 		}
 /*TABLET*/
 @media screen and (max-width: 768px){
-	
+				*{
+					background-color: rgb(46,47,64);
+				}
+				#container{
+					width: 100vw;
+					margin: 0 auto;
+
+				}
+				.header{
+					background-color: rgb(0,2,22);
+					width: 500px;
+					text-align: center;
+					height: 200px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-bottom: 20px;
+					margin-top: -70px;
+					box-shadow: 5px 5px 5px 5px #22232F;	
+				}
+				h1{
+					background-color: rgb(0,2,22);
+					color: white;
+					padding-top: 20px;
+					padding-right: 10px;
+					padding-left: 10px;
+					font-family: din-condensed, sans-serif;
+					font-weight: bold;
+					font-size: 70px;
+					font-style: normal;
+				}
+				.nav{
+					background-color: rgb(0,2,22);
+					width: 600px;
+					height: 70px;
+					margin-left: -10px;
+					box-shadow: 5px 5px 5px 5px #22232F;
+					padding-left: 40px;
+					margin-right: auto;	
+				}
+				a, h2{
+					color: white;
+					font-family: din-condensed, sans-serif;
+					font-weight: bold;
+					font-size: 30px;
+					font-style: normal;
+					word-spacing: 30px;
+				}
+				ul{
+					background-color: rgb(0,2,22);
+					padding-top: 20px;
+				}
+				a{
+					background-color: transparent;
+					text-decoration: none;
+				}
+				a:hover{
+					color: gray;
+				}
+				#title{
+				background-color: rgb(0,2,22);
+				margin-left: 250px;
+				margin-right: -10px;
+				margin-top: 50px;
+				padding-left: 10px;
+				/*margin-left: 190px;*/
+				height: 100px;
+				margin-bottom: 50px;
+				position: relative;
+				box-shadow: 5px 5px 5px 5px #22232F;
+				}
+				h3{
+					background-color: transparent;
+					color: white;
+					text-align: right;
+					margin-top: 50px;
+					padding-left: 20px;
+					padding-right: 40px;
+					font-family: New French, sans-serif;
+					font-weight: bold;
+					font-size: 70px;
+					font-style: normal;
+					position: absolute;
+					top: -100px;
+				}
+				.selection{
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+				.line{
+					width: 100%;
+					display: inline;
+					margin-left: 40px;
+				}
+				.test {
+				    position: relative;
+				    width: 400px;
+				    background-color: white;
+				    margin-left: 170px;
+				    float: left;
+				    margin-bottom: 50px;
+				}
+				.image {
+					background-color: rgb(254, 255, 255); 
+				 	opacity: 1;
+				  	width: 400px;
+				  	height: auto;
+				  	transition: .5s ease;
+				  	backface-visibility: hidden;
+				}
+				.middle {
+				  transition: .5s ease;
+				  opacity: 0;
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  -ms-transform: translate(-50%, -50%);
+				  text-align: center;
+				}
+				.test:hover .image {
+				  opacity: 0.3;
+				}
+				.test:hover .middle {
+				  opacity: 1;
+				}
+				.text {
+				  background-color: transparent;
+				  color: white;
+				  font-family: din-condensed, sans-serif;
+				  font-size: 16px;
+				  padding: 16px 32px;
+				}
+				#background{
+					background-color: rgb(178, 184, 197);
+					width: 100%;
+					padding: auto;
+					padding-top: 40px;
+					height: 7000px;
+					margin-top: 10px;
+					position: absolute;
+					margin-left: -10px;
+					padding-left: 30px;
+					margin-right: auto;
+				}
+				#background2{
+					background-color: rgb(178, 184, 197);
+					width: 100%;
+					padding: auto;
+					padding-top: 40px;
+					height: 500px;
+					margin-top: 0px;
+					position: absolute;
+					margin-left: -10px;
+					padding-left: 30px;
+					margin-right: auto;
+				}
+				.selection{
+					margin-top: 0px;
+					position: relative;
+				    float: left;
+				    margin-bottom: 0px;
+				}
+				.selection img{
+					width: 100%;
+					height: 400px;
+					object-fit:  cover;
+					}
+				.selection:hover .image {
+				  opacity: 0.3;
+				}
+				.selection:hover .middle {
+				  opacity: 1;
+				}
+				.texthome {
+				  background-color: transparent;
+				  color: white;
+				  font-family: din-condensed, sans-serif;
+				  font-size: 40px;
+				  padding: 16px 32px;
+				}
+				.footer{
+					margin-top: 550px;
+					height: 100px;
+					background-color: rgb(46,47,64);
+				}
+				.bioimg{
+					background-color: rgb(178, 184, 197);
+					height: 300px;
+					width: 300px;
+					margin: 30px;
+				}
 }
 /*PHONE*/
-@media screen and (max-width: 320px){
-	
+@media screen and (max-width: 505px){
+					*{
+					background-color: rgb(46,47,64);
+				}
+				#container{
+					width: 100vw;
+					margin: 0 auto;
+
+				}
+				.header{
+					background-color: rgb(0,2,22);
+					width: 500px;
+					text-align: center;
+					height: 200px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-bottom: 20px;
+					margin-top: -70px;
+					box-shadow: 5px 5px 5px 5px #22232F;	
+				}
+				h1{
+					background-color: rgb(0,2,22);
+					color: white;
+					padding-top: 20px;
+					padding-right: 10px;
+					padding-left: 10px;
+					font-family: din-condensed, sans-serif;
+					font-weight: bold;
+					font-size: 70px;
+					font-style: normal;
+				}
+				.nav{
+					background-color: rgb(0,2,22);
+					width: 600px;
+					height: 70px;
+					margin-left: -10px;
+					box-shadow: 5px 5px 5px 5px #22232F;
+					padding-left: 40px;
+					margin-right: auto;	
+				}
+				a, h2{
+					color: white;
+					font-family: din-condensed, sans-serif;
+					font-weight: bold;
+					font-size: 30px;
+					font-style: normal;
+					word-spacing: 30px;
+				}
+				ul{
+					background-color: rgb(0,2,22);
+					padding-top: 20px;
+				}
+				a{
+					background-color: transparent;
+					text-decoration: none;
+				}
+				a:hover{
+					color: gray;
+				}
+				#title{
+				background-color: rgb(0,2,22);
+				margin-left: 0px;
+				margin-right: -10px;
+				margin-top: 50px;
+				padding-left: 50px;
+				/*margin-left: 190px;*/
+				height: 100px;
+				margin-bottom: 50px;
+				position: relative;
+				box-shadow: 5px 5px 5px 5px #22232F;
+				}
+				h3{
+					background-color: transparent;
+					color: white;
+					text-align: right;
+					margin-top: 60px;
+					padding-left: 20px;
+					padding-right: 40px;
+					font-family: New French, sans-serif;
+					font-weight: bold;
+					font-size: 60px;
+					font-style: normal;
+					position: absolute;
+					top: -100px;
+				}
+				.selection{
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+				.line{
+					width: 100%;
+					display: inline;
+					margin-left: 40px;
+				}
+				.test {
+				    position: relative;
+				    width: 250px;
+				    background-color: white;
+				    margin-left: 100px;
+				    float: left;
+				    margin-bottom: 50px;
+				}
+				.image {
+					background-color: rgb(254, 255, 255); 
+				 	opacity: 1;
+				  	width: 400px;
+				  	height: auto;
+				  	transition: .5s ease;
+				  	backface-visibility: hidden;
+				}
+				.middle {
+				  transition: .5s ease;
+				  opacity: 0;
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  -ms-transform: translate(-50%, -50%);
+				  text-align: center;
+				}
+				.test:hover .image {
+				  opacity: 0.3;
+				}
+				.test:hover .middle {
+				  opacity: 1;
+				}
+				.text {
+				  background-color: transparent;
+				  color: white;
+				  font-family: din-condensed, sans-serif;
+				  font-size: 16px;
+				  padding: 16px 32px;
+				}
+				#background{
+					background-color: rgb(178, 184, 197);
+					width: 100%;
+					padding: auto;
+					padding-top: 40px;
+					height: 4750px;
+					margin-top: 10px;
+					position: absolute;
+					margin-left: -10px;
+					padding-left: 30px;
+					margin-right: auto;
+				}
+				#background2{
+					background-color: rgb(178, 184, 197);
+					width: 100%;
+					padding: auto;
+					padding-top: 40px;
+					height: 500px;
+					margin-top: 0px;
+					position: absolute;
+					margin-left: -10px;
+					padding-left: 30px;
+					margin-right: auto;
+				}
+				.selection{
+					margin-top: 0px;
+					position: relative;
+				    float: left;
+				    margin-bottom: 0px;
+				}
+				.selection img{
+					width: 100%;
+					height: 400px;
+					object-fit:  cover;
+					}
+				.selection:hover .image {
+				  opacity: 0.3;
+				}
+				.selection:hover .middle {
+				  opacity: 1;
+				}
+				.texthome {
+				  background-color: transparent;
+				  color: white;
+				  font-family: din-condensed, sans-serif;
+				  font-size: 40px;
+				  padding: 16px 32px;
+				}
+				.footer{
+					margin-top: 550px;
+					height: 100px;
+					background-color: rgb(46,47,64);
+				}
+				.bioimg{
+					background-color: rgb(178, 184, 197);
+					height: 300px;
+					width: 300px;
+					margin: 30px;
+				}
 }
