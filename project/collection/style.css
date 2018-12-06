@@ -66,6 +66,7 @@ a:hover{
 	padding-left: 10px;
 	/*margin-left: 190px;*/
 	height: 100px;
+	width: 58%;
 	margin-bottom: 50px;
 	position: relative;
 	box-shadow: 5px 5px 5px 5px #22232F;
@@ -164,15 +165,16 @@ h5{
 }
 #background2{
 	background-color: rgb(178, 184, 197);
-	width: 100%;
+	width: 95%;
 	padding: auto;
 	padding-top: 40px;
 	height: 500px;
 	margin-top: 0px;
 	position: absolute;
 	margin-left: -10px;
+
 	/*padding-left: 30px;*/
-	margin-right: auto;
+	margin-right: -10px;
 }
 .selection{
 	margin-top: 0px;
@@ -931,8 +933,7 @@ h5{
 					color: white;
 					text-align: center;
 					margin-top: 70px;
-					padding-left: 20px;
-					padding-right: 40px;
+					
 					font-family: New French, sans-serif;
 					font-weight: bold;
 					font-size: 40px;
@@ -1056,7 +1057,9 @@ h5{
 				  padding: 16px 32px;
 				}
 				.footer{
-					margin-top: 560px;
+					margin-top: 700px;
+					margin-left: 50px;
+					margin-right: auto;
 					height: 100px;
 					/*width: 300px;*/
 					background-color: rgb(46,47,64);
